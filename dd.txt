@@ -1,1 +1,4 @@
 {"orderNo":"T2512191149428906113524"	customerId:0	accountId:0	trnRefNo:250328856770	pgMeTrnRefNo:0	trnDate:"2025-12-19 11:49:47"	txnId:"AXL1792a7a9b5324505bc64d9629203df20"	txnInit:"N"	txnType:"CREDIT"	txnNote:"Payment from PhonePe"	orgTrnRefNo:287274860163	txnAmount:1000	txnMinAmount:0.0	txnAmountPaisa:0	currency:"INR"	prCustType:"P"	prfvaddr:"8858638477@axl"
+
+prFname:"Ansh  Tiwari"	prCode:"0000"	prAccType:"SAVINGS"	prAccNo:"00000044148471770"	prIfscCode:"SBIN0008259"	prAccName:"Ansh  Tiwari"	prdMobile:"XXXXXXXXXXXX"	prdGeocode:"18.579907	73.770586"	prdLoc:"Pune	 MH	 IN"	prdIp:"2401:4900:79eb:b734:d93c:e498:f54e:f7d3"	prdType:"MOB"	prdId:"JYK39OKKN8IDHVKPVFB1QXRV70XTXOT0VGD"	prdOs:"Android"	prdApp:"com.phonepe.app"
+
