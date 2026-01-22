@@ -1,3 +1,17 @@
+username and password:- for below portal
+admin
+Admin1
+
+https://ced-dev.apps.ocpdwhnp.dwhmartg.bank.sbi/
+https://ced-uat.apps.ocpdwhnp.dwhmartg.bank.sbi/
+
+VM server:- 
+
+10.177.143.247  DEV 
+10.177.143.248 UAT
+user driveadmin
+server 203 bastion
+
 Changes made:
 /mnt/appsrc/python/acme/application/upi_p2p_debit
 /mnt/appsrc/python/acme/parsers/message_queue/upi_p2p_debit
