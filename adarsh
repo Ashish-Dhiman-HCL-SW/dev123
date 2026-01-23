@@ -1,81 +1,62 @@
-{
-  "kafkaSinkBatchSize": 1,
-  "kafkaSourceSettings": {
-    "batchSize": 1,
-    "epochSize": 1,
-    "topicName": "P2PDEBIT"
-  },
-  "logLevel": "INFO",
-  "name": "Upi P2P Debit",
-  "numParallelChannels": 1,
-  "parameters": [
-    {
-      "name": "bootstrapServers",
-      "stringListValue": {
-        "values": [
-          "hel-gbq01.kafka-bgw.bank.sbi:9092"
-        ]
-      }
-    },
-    {
-      "name": "groupId",
-      "stringValue": "group-hcl"
-    },
-    {
-      "name": "securityProtocol",
-      "stringValue": "SSL"
-    },
-    {
-      "name": "ssl.keystore.location",
-      "stringValue": "/data/kafka/certs/uat-kafka.server.keystore.jks"
-    },
-    {
-      "name": "ssl.keystore.password",
-      "stringValue": "Sbi@123"
-    },
-    {
-      "name": "ssl.key.password",
-      "stringValue": "Sbi@123"
-    },
-    {
-      "name": "ssl.keystore.type",
-      "stringValue": "PKCS12"
-    },
-    {
-      "name": "ssl.truststore.location",
-      "stringValue": "/data/kafka/certs/uat-kafka.server.truststore.jks"
-    },
-    {
-      "name": "ssl.truststore.password",
-      "stringValue": "Sbi@123"
-    },
-    {
-      "name": "ssl.truststore.type",
-      "stringValue": "PKCS12"
-    },
-    {
-      "name": "schemaRegistryUrl",
-      "stringValue": ""
-    },
-    {
-      "name": "schemaFile",
-      "stringValue": ""
-    },
-    {
-      "name": "saslKerberosKeytab",
-      "stringValue": ""
-    },
-    {
-      "name": "saslKerberosPrincipal",
-      "stringValue": ""
-    },
-    {
-      "name": "saslKerberosServiceName",
-      "stringValue": ""
-    },
-    {
-      "name": "saslMechanism",
-      "stringValue": ""
-    }
-  ]
-}
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: uat-kafka-server
+Creation date: Jun 13, 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 2
+Certificate[1]:
+Owner: CN=hcl-gb-qu-kafk-2001.dwhmartg.bank.sbi, O=HCL, L=Pune, ST=MH, C=IN
+Issuer: CN=Kafka-RootCA, O=HCL, L=Pune, ST=MH, C=IN
+Serial number: d7889f82353086a6896bd1acaf76f33b726af6
+Valid from: Fri Jun 13 11:44:14 IST 2025 until: Mon Jun 11 11:44:14 IST 2035
+Certificate fingerprints:
+         SHA1: 1B:48:05:41:91:F9:2F:BD:0D:6A:17:E9:C6:10:D3:E1:CC:09:4E:05
+         SHA256: 52:7B:FC:38:E8:D3:39:04:F5:26:27:54:57:B6:0A:98:22:B2:A8:83:78:5F:AF:82:3F:17:1E:8D:CC:25:A6:CA
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 1
+Certificate[2]:
+Owner: CN=Kafka-RootCA, O=HCL, L=Pune, ST=MH, C=IN
+Issuer: CN=Kafka-RootCA, O=HCL, L=Pune, ST=MH, C=IN
+Serial number: 4f0b15a5867babd07da4ed53fe15f5d63bba3461
+Valid from: Fri Jun 13 11:39:53 IST 2025 until: Mon Jun 11 11:39:53 IST 2035
+Certificate fingerprints:
+         SHA1: 80:EF:74:D1:3D:CF:A7:17:CC:A1:2A:6B:B9:A3:1F:98:7F:B1:07:26
+         SHA256: D8:15:3A:E9:49:1D:C6:7F:71:3F:79:75:15:0D:24:C3:4D:69:22:64:DA:1F:29:B2:D6:60:84:E2:7E:5C:A2:47
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: A3 9D 77 28 29 A9 F5 A0   5E 1C D5 C9 C6 CD C5 E2  ..w()...^.......
+0010: E3 72 0E 22                                        .r."
+]
+]
+
+#2: ObjectId: 2.5.29.19 Criticality=true
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+#3: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: A3 9D 77 28 29 A9 F5 A0   5E 1C D5 C9 C6 CD C5 E2  ..w()...^.......
+0010: E3 72 0E 22                                        .r."
+]
+]
+
+
+
+*******************************************
+*******************************************
+
+
