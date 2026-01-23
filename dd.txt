@@ -29,6 +29,26 @@ P2PDEBIT - bank Kafka Topic - UAT Kafka
 application feed name - Upi P2P Debit
 
 
+======================================================
+kafka details
+
+Server IP : 10.177.142.200
+#################################SSL Configurations###############################
+ssl.keystore.location=/data/kafka/certs/uat-kafka.server.keystore.jks
+ssl.keystore.password=Sbi@123
+ssl.key.password=Sbi@123
+ssl.truststore.location=/data/kafka/certs/uat-kafka.server.truststore.jks
+ssl.truststore.password=Sbi@123
+ssl.endpoint.identification.algorithm=
+ssl.client.auth=required
+security.inter.broker.protocol=SSL
+ 
+###### Added keystore type on 27 Nov 2025 ######
+ssl.keystore.type=PKCS12
+ssl.truststore.type=PKCS12
+[root@hcl-gb-qu-kafk-2001 config]#
+==============================================
+
 com.mgs.bankupi.cug
 com.mgs.bankupi.prod
 com.mgs.bankupi_uat
